@@ -1,0 +1,241 @@
+
+body {
+	font-family: "trebuchet ms", georgia, sans-serif;
+	max-width: 960px;
+	margin:0 auto;	
+	font-size: 100%;
+}
+
+#wrapper {
+	width: 100%;
+}
+
+h1, h2, h3 {
+	font-family: "georgia", "trebuchet ms", sans-serif;
+	font-size: 1.2em;
+	text-shadow: 1px 1px #f09500;
+}
+
+li {
+	list-style-type: none;
+	margin-left: 20px;
+	font-size: 1em;
+	text-decoration: none;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	color: white;
+	background-color: black;
+	text-decoration: none;
+}
+
+a:visited {
+	color: gray;
+	
+}
+
+#nav li {
+	float: left;
+	width: 75px;
+	padding: 0.58139%; /*5px;*/
+	margin:0;
+	color: #fff;
+	overflow:hidden;	
+}
+
+#nav:active {
+	text-decoration: none;
+	color: white;
+}
+
+#logo {
+	padding: 5.20833% 5.20833% 0%; /*50px 50px 0px;*/ 
+	background-color: #404a47;
+	background-radius: 2em;
+	background-image: url("images/jl.png");
+	background-repeat: no-repeat;
+	background-position: 840px 37px;
+	width: 89.58333%; /* 860px / 960px */
+}
+
+#multicolumn {
+	font-size: 1em;
+	padding: 30px;
+	text-align: justify;
+	-moz-column-count: 2;
+	border-bottom: 1px solid #666666;
+		
+	/* I saw that you specified our projects to have 3 paragraphs, but I dont
+	think it would have worked well in the way that I implemented it. I still
+	used multicolumn to use the same effect. I hope this is ok. */
+}
+
+
+#listone {
+	padding: 0px 0px 30px 30px;
+	width: 46.875%; /*450px */
+	float: left;
+	border-bottom: 1px solid #666666;	
+}
+
+#listtwo {
+	padding: 0px 0px 30px;
+	width: 46.875%; /*450px */
+	float: right;	
+	border-bottom: 1px solid #666666;
+}
+
+#gallery {
+	padding: 0px 0px 30px 30px;
+	clear: both;
+	float: left;
+	margin: 0;	
+}
+
+.photos {
+	float: left;
+	padding: 0% 0% 3.125%; /*0px 0px 30px 0px;*/
+}
+
+footer{
+	clear:
+	float: left;	
+}
+
+.copyright {
+	clear: both;
+	padding: 0% 0% 0% 40.625%; /*0px 0px 0px 390px;*/
+	font-size: 0.875em; /* 14px */
+}
+
+.social {
+	float: left;
+	padding: 0% 0% 3.125% 16.66666%; /*0px 0px 30px 160px;*/
+}
+
+.logophoto {
+	border: 5px solid white;
+	width: 98.8372%; /* 850px /860px */
+}
+
+.orange {
+	color: #fef4e9;
+	border: solid 1px #da7c0c;
+	background: #f78d1d;
+	background: -webkit-gradient(linear, left top, left bottom, from(#faa51a), to(#f47a20));
+	background: -moz-linear-gradient(top,  #faa51a,  #f47a20);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#faa51a', endColorstr='#f47a20');
+}
+
+.orange:hover {
+	background: #f47c20;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f88e11), to(#f06015));
+	background: -moz-linear-gradient(top,  #f88e11,  #f06015);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f88e11', endColorstr='#f06015');
+}
+
+.orange:active {
+	color: #fcd3a5;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f47a20), to(#faa51a));
+	background: -moz-linear-gradient(top,  #f47a20,  #faa51a);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f47a20', endColorstr='#faa51a');
+}
+
+.button {
+	display: inline-block;
+	zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */
+	*display: inline;
+	vertical-align: baseline;
+	margin: 0% 0% 3.48837% 38.95348%; /*0px 0px 30px 335px;*/
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 1.125em; /*18px/100% */ "trebuchet ms", georgia, sans-serif;
+	padding: 1em 3em 1em;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+
+.message {
+	font-size: 1em;
+	margin: 6.39534% 0% 2.32558%; 
+	text-align: center;
+	color: #fff;
+	background-color: fff;
+}
+
+.socialtag {
+	padding: 0% 0% 0% 30%;
+}
+
+#placeholder {
+	font-size: 1em;
+	background-color: #404a47;
+	opacity:0.5;
+	text-align: center;
+	clear: both;
+	padding: 31.25%; /* 300px / 960px */
+	margin:3.125% 0% 0%; /* 30px 0px 0px; */
+	color: white;
+	width: 37.5% /* 360px / 960px */
+}
+
+#jlpush {
+	text-indent: -90000px;
+	float: left;
+}
+
+/* =============================== Media Queries ======================================== */
+
+/*Tablet size to standard 960 (devices and browsers) */
+@media screen and (min-width: 768px) and (max-width: 959px) {
+	#logo {background-image:none;}
+	#multicolumn {-moz-column-count: 1;}
+	#listone {border: none;}
+	#listtwo {border: none;}
+	
+}
+
+/*Tablet size to standard 960 (devices and browsers) */
+@media screen and (min-width: 480px) and (max-width: 767px) {
+	#logo {background-image:none;}
+	#listone {float: none; border: none; padding: 0% 0% 0% 40%}
+	#listtwo {float: none; border: none; padding: 0% 0% 0% 40%}
+	#multicolumn {-moz-column-count: 1;}
+}
+
+/*Tablet size to standard 960 (devices and browsers) */
+@media screen and (max-width: 479px) {
+	#logo {background-image:none;}
+	#listone {float: none; padding: 0% 0% 0% 25%; border: none;}
+	#listtwo {float: none; padding: 0% 0% 0% 25%; border: none;}
+	#gallery {padding: 0% 0% 0% 25%;}
+	#multicolumn {-moz-column-count: 1;}
+	.socialtag {font-size: .99em; padding:0% 0% 0% 21%}
+	.social {float: none; padding: 0% 0% 3.125% 35.66666%;}
+	.copyright {padding: 0% 0% 0% 32.625%;}
+	.button {display: none;}	
+	#nav li {padding:.1%;}
+	.social {display: none;}
+	.socialtag {display: none;}
+	
+}
+
+
+
+/*	Dark Blue/Grey:   6b8c91
+	Light Blue/White: c3dce1
+	Dark Grey:		  404a47
+	Orange:			  f09500
+*/
