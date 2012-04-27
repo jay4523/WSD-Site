@@ -16,9 +16,14 @@ h1, h2, h3 {
 	text-shadow: 1px 1px #f09500;
 }
 
+h3 {
+	color: white;
+	margin: 0 auto;
+}
+
 li {
 	list-style-type: none;
-	margin-left: 20px;
+	margin-left:20px; /* Purposely kept pixels as it scales how I want it to*/
 	font-size: 1em;
 	text-decoration: none;
 }
@@ -40,7 +45,7 @@ a:visited {
 
 #nav li {
 	float: left;
-	width: 75px;
+	width: 75px; /* Purposely kept pixels as it scales how I want it to*/
 	padding: 0.58139%; /* 5px */
 	margin:0;
 	color: #fff;
@@ -53,9 +58,9 @@ a:visited {
 }
 
 #logo {
-	padding: 5.20833% 5.20833% 0%; /*50px 50px 0px;*/ 
+	padding: 5.20833% 5.20833% 6%; /*50px 50px 0px;*/ 
+	border-radius: .3em;
 	background-color: #404a47;
-	background-radius: 2em;
 	background-image: url("images/jl.png");
 	background-repeat: no-repeat;
 	background-position: 840px 37px;
@@ -64,7 +69,7 @@ a:visited {
 
 #multicolumn {
 	font-size: 1em;
-	padding: 30px;
+	padding: 3.125%; /*30px;*/
 	text-align: justify;
 	-moz-column-count: 2;
 	border-bottom: 1px solid #666666;
@@ -76,24 +81,28 @@ a:visited {
 
 
 #listone {
-	padding: 0px 0px 30px 30px;
+	padding: 0% 0% 3.125% 3.125%; /*0px 0px 30px 30px;*/
 	width: 46.875%; /*450px */
 	float: left;
 	border-bottom: 1px solid #666666;	
 }
 
 #listtwo {
-	padding: 0px 0px 30px;
+	padding: 0% 0% 3.125%; /*0px 0px 30px;*/
 	width: 46.875%; /*450px */
-	float: right;	
+	float: left;	
 	border-bottom: 1px solid #666666;
 }
 
+.gallerytitle {
+	padding: 0% 0% 0.52083% 3.125%;
+}
+
 #gallery {
-	padding: 0px 0px 30px 30px;
+	padding: 0% 0% 3.125% 3.125%; /*0px 0px 30px 30px;*/
 	clear: both;
 	float: left;
-	margin: 0;	
+	margin: 0 auto;	
 }
 
 .photos {
@@ -102,13 +111,14 @@ a:visited {
 }
 
 footer{
-	clear:
-	float: left;	
+	clear: both;
+	float: left;
+	padding: 0% 0% 0% 17.70833%; /*0px 0px 0px 170px;	*/
 }
 
 .copyright {
 	clear: both;
-	padding: 0% 0% 0% 40.625%; /*0px 0px 0px 390px;*/
+	padding: 0% 0% 0% 44.625%; /*0px 0px 0px 390px;*/
 	font-size: 0.875em; /* 14px */
 }
 
@@ -148,7 +158,7 @@ footer{
 .button {
 	display: inline-block;
 	zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */
-	*display: inline;
+	display: inline;
 	vertical-align: baseline;
 	margin: 0% 0% 3.48837% 38.95348%; /*0px 0px 30px 335px;*/
 	outline: none;
@@ -168,31 +178,82 @@ footer{
 
 .message {
 	font-size: 1em;
-	margin: 6.39534% 0% 2.32558%; 
+	margin: 6.39534% 0% 3.32558%; 
 	text-align: center;
 	color: #fff;
 	background-color: fff;
 }
 
 .socialtag {
-	padding: 0% 0% 0% 30%;
-}
-
-#placeholder {
-	font-size: 1em;
-	background-color: #404a47;
-	opacity:0.5;
-	text-align: center;
-	clear: both;
-	padding: 31.25%; /* 300px / 960px */
-	margin:3.125% 0% 0%; /* 30px 0px 0px; */
-	color: white;
-	width: 37.5% /* 360px / 960px */
+	padding: 10% 0% 0% 28%;
+	color: black;
 }
 
 #jlpush {
 	text-indent: -90000px;
 	float: left;
+}
+
+#schedulewrapper {
+	width: 44.79166%; /*430px*/
+	padding: 15.625% 0% 15.4125% 5.20416%; /*150px 27px 147px 68px;*/
+	float: left;
+	background: #404a47;
+	border-radius: .3em 0 0 .3em;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	clear: both;
+}
+
+td {
+	border: 1px solid #fff;
+	text-align: center;
+	padding: 0.3em;
+	color: white;
+}
+
+th {
+	text-align: center;
+	background-color: #f09500;
+	color: #fff;
+	padding: 0.3em;
+	border: 1px solid #fff;
+}
+
+form {
+	width: 44.79166%; /*430px*/
+	float: left;
+	padding: 3.54166% 2.60416% 4.16666% 2.60416%; /*34px 30px 40px 50px;*/
+	background: #404a47;
+	border-radius: 0 .3em .3em 0;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	color: white;
+}
+
+label {
+	display:block;
+	font-weight: bold;
+	text-align:right;
+	width: 32.55813%; /*140px;*/
+	float:left;
+}
+
+textarea {
+	margin: 0% 0% .5% 5%;
+}
+
+.formmessage {
+	margin: 0 auto;
+	font-size: .85em;
+}
+
+#personal {
+	float: left;
+}
+
+fieldset {
+	color: #f09500;
 }
 
 /* =============================== Media Queries ======================================== */
@@ -203,7 +264,14 @@ footer{
 	#multicolumn {-moz-column-count: 1;}
 	#listone {border: none;}
 	#listtwo {border: none;}
-}
+	form {padding: 5% 0% 0% 27%;; float: none; background: none; border: none;}
+	#schedulewrapper {padding: 0% 0% 0% 32%; float: none; background: none; border: none;}
+	td {border: 1px solid #000; text-align: center; padding: 0.3em; color: black;}
+	th {border-color: black;}
+	h3 {color: black;}
+	fieldset {color: #000;}
+	textarea {margin:0%;}
+	}
 
 /*Tablet size to standard 960 (devices and browsers) */
 @media screen and (min-width: 480px) and (max-width: 767px) {
@@ -211,6 +279,14 @@ footer{
 	#listone {float: none; border: none; padding: 0% 0% 0% 40%}
 	#listtwo {float: none; border: none; padding: 0% 0% 0% 40%}
 	#multicolumn {-moz-column-count: 1;}
+	form {padding: 5% 0% 0% 11%;; float: none; background: none; border: none;}
+	#schedulewrapper {padding: 0% 0% 0% 18%; float: none; background: none; border: none;}
+	td {border: 1px solid #000; text-align: center; padding: 0.3em; color: black;}
+	th {border-color: black;}
+	h3 {color: black;}
+	fieldset {color: #000;}
+	#footer {padding: 0% 0% 0% 9%;}
+	textarea {margin:0%;}
 }
 
 /*Tablet size to standard 960 (devices and browsers) */
@@ -227,6 +303,14 @@ footer{
 	#nav li {padding:.1%;}
 	.social {display: none;}
 	.socialtag {display: none;}
+	form {padding: 5% 0% 0% 0%;; float: none; background: none; border: none;}
+	#schedulewrapper {padding: 0% 0% 0% 10%; float: none; background: none; border: none;}
+	td {border: 1px solid #000; text-align: center; padding: 0.3em; color: black;}
+	th {border-color: black;}
+	h3 {color: black;}
+	fieldset {color: #000;}
+	textarea {margin:0%;}
+	.gallerytitle {padding:0% 0% 0% 25%}
 }
 
 
