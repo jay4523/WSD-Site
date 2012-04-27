@@ -165,7 +165,7 @@ footer{
 	cursor: pointer;
 	text-align: center;
 	text-decoration: none;
-	font: 1.125em; /*18px/100% */ "trebuchet ms", georgia, sans-serif;
+	font: 1.125em /*18px/100% */ "trebuchet ms", georgia, sans-serif;
 	padding: 1em 3em 1em;
 	text-shadow: 0 1px 1px rgba(0,0,0,.3);
 	-webkit-border-radius: .5em; 
